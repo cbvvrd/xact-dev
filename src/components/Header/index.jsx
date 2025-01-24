@@ -20,13 +20,13 @@ function Header() {
                 </nav>    
             </header>
 
-            <div className={menuOpen ? "fixed right-0 flex flex-col gap-1 p-3 bg-slate-300" : "hidden"}>
-                <button onClick={() => setMenuOpen(false)} className="self-end"><FontAwesomeIcon icon={faX} /></button>
-                <p className="underline">Navigate to:</p>
-                <nav className="flex flex-col">
-                    <a href="#">Home</a>
-                    <a href="#">Demo</a>
-                    <a href="#">Contact</a>
+            <div className={menuOpen ? "fixed top-0 right-0 flex flex-col items-center gap-1 pt-8 pl-10 pr-5  h-full bg-slate-800 text-white text-lg" : "hidden"}>
+                <button onClick={() => setMenuOpen(false)} className="self-end"><FontAwesomeIcon icon={faX} className="text-xl hover:text-blue-400 duration-75" /></button>
+                {/* <p className="underline">Navigate to:</p> */}
+                <nav className="flex flex-col items-end text-center gap-3 pt-5">
+                    <a href="#" className="hover:text-blue-400 duration-75">Home</a>
+                    <a href="#" className="hover:text-blue-400 duration-75">Demo</a>
+                    <a href="#" className="hover:text-blue-400 duration-75">Contact</a>
                 </nav>
             </div>
         </>

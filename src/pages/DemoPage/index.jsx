@@ -1,3 +1,4 @@
+import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
 function DemoPage() {
@@ -5,6 +6,7 @@ function DemoPage() {
         <>
             <Header />
             <p>Demos</p>
+            <Footer />
         </>
     );
 }

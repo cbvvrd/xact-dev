@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
     return (
         <>
-            <footer className="fixed bottom-0 w-full flex justify-around bg-slate-300 border-t border-black text-sm py-5 md:justify-between md: px-7">
+            <footer className="w-full flex justify-around bg-slate-300 border-t border-black text-sm py-5 md:justify-between md: px-7">
                 <div>
                     {/* <p onClick={() => window.scrollTo({ top: 0 })}>Top</p> */}
                     <p>&copy; Xact Automation 2025</p>

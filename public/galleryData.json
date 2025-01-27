@@ -2,19 +2,23 @@
     "gallery": [
         {
             "id": 1,
-            "image": "images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg"
+            "image": "images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg",
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
         },
         {
             "id": 2,
-            "image": "images/minku-kang-aCniNTiIFd8-unsplash.jpg"
+            "image": "images/minku-kang-aCniNTiIFd8-unsplash.jpg",
+            "text": "Lorem ipsum dolor sit amet."
         },
         {
             "id": 3,
-            "image": "images/thisisengineering-nyAzMQ6Ejgs-unsplash.jpg"
+            "image": "images/thisisengineering-nyAzMQ6Ejgs-unsplash.jpg",
+            "text": "Maecenas maximus ultrices odio."
         },
         {
             "id": 4,
-            "image": "public/images/yogesh-phuyal-mjwGKmwkDDA-unsplash.jpg"
+            "image": "public/images/yogesh-phuyal-mjwGKmwkDDA-unsplash.jpg",
+            "text": "Nunc pulvinar at velit nec sagittis."
         }
     ]
 }

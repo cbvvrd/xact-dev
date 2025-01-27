@@ -17,11 +17,11 @@ function Gallery() {
 
     return (
         <>
-            <div className="overflow-x-scroll whitespace-nowrap h-64">
+            <div className="overflow-x-scroll whitespace-nowrap h-64 md:h-[32rem]">
                 {gallery.map(item =>
-                    <div className="relative inline-block text-center">
-                        <img src={item.image} />
-                        <p className="absolute top-1/4  text-wrap text-white bg-black bg-opacity-35 font-bold text-3xl">Bespoke LabVIEW for Automation, Control & Test.</p>
+                    <div className="relative inline-block text-center md:w-screen ">
+                        <img src={item.image} className="object-cover h-64 md:h-[30rem] md:w-screen" />
+                        <p className="absolute top-1/4 md:left-1/4 py-2 text-wrap text-white bg-black bg-opacity-40 font-bold text-3xl">{item.text}</p>
                     </div>
                 )}
             </div>

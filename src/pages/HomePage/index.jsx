@@ -1,11 +1,12 @@
 import Footer from "../../components/Footer";
+import Gallery from "../../components/Gallery";
 import Header from "../../components/Header";
 
 function HomePage() {
     return (
         <>
             <Header />
-            <p>Home</p>
+            <Gallery />
             <Footer />
         </>
     );

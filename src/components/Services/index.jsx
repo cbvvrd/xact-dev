@@ -1,17 +1,31 @@
+import { useEffect, useState } from "react";
 import { GrAction, GrBarChart, GrCar, GrCpu, GrLike, GrOptimize, GrServices } from "react-icons/gr";
+import IndividualService from "../IndividualService";
 
 function Services() {
+
+    const[serviceList, setServiceList] = useState([]);
+    
+
+    useEffect(() => {
+        fetch("servicesData.json")
+        .then(res => res.json())
+        .then(servicesData => {
+            setServiceList(servicesData.services)
+        });
+    }, []);
+
     return (
         <>
             <div className="flex flex-col items-center content-start gap-5 my-10 md:mx-24">
                 <h3 className="text-2xl font-semibold">Services</h3>
                 <h4>Here are some of the services we offer:</h4>
-            
+                
                 <div className="grid gap-4 mx-16 mt-5 text-center md:gap-10 md:grid-cols-4 items-stretch">
                     <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200">
                         <GrCpu className="self-center text-2xl" />
                         <p className="font-semibold">Service 1</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda. </p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda.</p>
                     </div>
                     <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200 ">
                         <GrAction className="self-center text-2xl"/>

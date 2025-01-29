@@ -1,4 +1,5 @@
 import About from "../../components/About";
+import ContactUs from "../../components/ContactUs";
 import Footer from "../../components/Footer";
 import Gallery from "../../components/Gallery";
 import Header from "../../components/Header";
@@ -11,6 +12,7 @@ function HomePage() {
             <Gallery />
             <About />
             <Services />
+            <ContactUs />
             <Footer />
         </>
     );

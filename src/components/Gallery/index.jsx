@@ -54,12 +54,12 @@ function Gallery() {
         <>
             <div className="flex items-center ">
             <MdChevronLeft onClick={slideLeft} className=" absolute z-10 left-1 md:left-3 text-[1.5em] md:text-[2.53em] text-blue-400 bg-white border border-slate-300 rounded-full"/>
-                <div id="innerGallery" className="snap-x overflow-x-scroll scrollbar-hide whitespace-nowrap scroll-smooth h-64 md:h-[32rem]">
+                <div id="innerGallery" className="snap-x overflow-x-scroll scrollbar-hide whitespace-nowrap scroll-smooth h-64 md:h-[42rem]">
                     
                 {gallery.map(item =>
                     
                     <div key={item.id} className="relative inline-block text-center">
-                        <img src={item.image} alt="background image of engineering work" className="snap-center object-cover h-64 md:h-[31rem] md:w-screen" />
+                        <img src={item.image} alt="background image of engineering work" className="snap-center object-cover h-64 md:h-[40rem] md:w-screen" />
                         <p className="absolute top-1/4 md:left-1/4 md:top-1/3 p-2 md:w-1/3 text-3xl text-wrap text-white bg-black bg-opacity-40 mx-10 font-bold md:text-5xl">{item.text}</p>
                     </div>
                 )}

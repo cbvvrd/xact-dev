@@ -8,17 +8,17 @@
         {
             "id": 2,
             "image": "images/minku-kang-aCniNTiIFd8-unsplash.jpg",
-            "text": "Lorem ipsum dolor sit amet."
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
         },
         {
             "id": 3,
             "image": "images/thisisengineering-nyAzMQ6Ejgs-unsplash.jpg",
-            "text": "Maecenas maximus ultrices odio."
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
         },
         {
             "id": 4,
             "image": "public/images/yogesh-phuyal-mjwGKmwkDDA-unsplash.jpg",
-            "text": "Nunc pulvinar at velit nec sagittis."
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
         }
     ]
 }

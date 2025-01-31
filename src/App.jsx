@@ -5,15 +5,13 @@ import ContactPage from "./pages/ContactPage";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Routes>
-          <Route path="/xact-dev/" element={<HomePage />} />
-          <Route path="/demo" element={<DemoPage />} />
-          <Route path="/contact" element={<ContactPage />} />
-        </Routes>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/xact-dev" element={<HomePage />} />
+        <Route path="/xact-dev/demo" element={<DemoPage />} />
+        <Route path="/xact-dev/contact" element={<ContactPage />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 

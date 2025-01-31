@@ -10,7 +10,7 @@ function About() {
                 <SiLabview size={100}/>
                 <p className="md:text-lg">Aliquam commodo consectetur lorem, hendrerit pellentesque eros rutrum vel. Morbi ut vulputate eros. Phasellus fringilla enim id facilisis interdum. Duis venenatis lacus at ante iaculis, sit amet blandit dui dignissim. Aliquam dapibus neque vitae aliquet tristique. Aenean ut massa eleifend ligula imperdiet malesuada et quis justo. </p>
                 <div className="bg-green-400 text-center mx-10 rounded-xl border-4 border-green-600 bg-opacity-50 hover:bg-green-100 hover:text-amber-600 duration-150 p-1 md:mt-5">
-                    <Link to="/demo" className="text-4xl font-semibold p-4">See a Demo</Link>
+                    <Link to="/xact-dev/demo" className="text-4xl font-semibold p-4">See a Demo</Link>
                 </div>
             </div>
             

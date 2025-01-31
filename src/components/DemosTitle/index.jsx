@@ -4,7 +4,7 @@ function DemosTitle() {
     return (
         <div className="flex flex-col items-center text-center gap-1 my-5 py-7 bg-blue-200 md:my-10">
             <h1 className="text-2xl font-semibold md:text-4xl">Demo</h1>
-            <p className="md:text-lg md:text-2xl">Example of software we have built </p>
+            <p className="md:text-lg">Example of software we have built </p>
             <SiLabview size={75}/>
         </div>
     );

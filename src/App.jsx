@@ -7,7 +7,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/xact-dev/" element={<HomePage />} />
+        <Route path="/xact-dev" element={<HomePage />} />
         <Route path="/xact-dev/demo" element={<DemoPage />} />
         <Route path="/xact-dev/contact" element={<ContactPage />} />
       </Routes>

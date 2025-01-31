@@ -1,0 +1,24 @@
+{
+    "gallery": [
+        {
+            "id": 1,
+            "image": "images/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg",
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
+        },
+        {
+            "id": 2,
+            "image": "images/minku-kang-aCniNTiIFd8-unsplash.jpg",
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
+        },
+        {
+            "id": 3,
+            "image": "images/thisisengineering-nyAzMQ6Ejgs-unsplash.jpg",
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
+        },
+        {
+            "id": 4,
+            "image": "public/images/yogesh-phuyal-mjwGKmwkDDA-unsplash.jpg",
+            "text": "Bespoke LabVIEW for Automation, Control & Test."
+        }
+    ]
+}

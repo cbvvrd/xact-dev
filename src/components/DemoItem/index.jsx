@@ -2,6 +2,7 @@ import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { useState } from "react";
 import { HiOutlineArrowNarrowDown } from "react-icons/hi";
+import VideoEmbed from "../VideoEmbed";
 
 function DemoItem({title, image, overview, description, github, video}) {
 
@@ -36,7 +37,8 @@ function DemoItem({title, image, overview, description, github, video}) {
             <div className="flex flex-col items-center m-10 gap-1">
                 <p className="text-center mb-3">{description}</p>
                 <a href={github} target="_blank" className="underline">Github Repository <FontAwesomeIcon icon={faGithub} /> </a>
-                <a href={video} target="_blank">Link to video</a>
+                {video && <VideoEmbed video={video} />}
+                {/* <VideoEmbed video={video} /> */}
             </div>
         </div>
     );

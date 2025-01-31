@@ -1,3 +1,4 @@
+import ContactUs from "../../components/ContactUs";
 import Demos from "../../components/Demos";
 import DemosTitle from "../../components/DemosTitle";
 import Footer from "../../components/Footer";
@@ -9,6 +10,7 @@ function DemoPage() {
             <Header />
             <DemosTitle />
             <Demos />
+            <ContactUs />
             <Footer />
         </>
     );

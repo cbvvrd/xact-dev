@@ -1,3 +1,5 @@
+import ContactDetails from "../../components/ContactDetails";
+import ContactTitle from "../../components/ContactTitle";
 import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 
@@ -5,7 +7,8 @@ function ContactPage() {
     return (
         <>
             <Header />
-            <p>Contact</p>
+            <ContactTitle />
+            <ContactDetails />
             <Footer />
         </>
     );

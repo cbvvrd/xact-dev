@@ -16,7 +16,14 @@ function Demos() {
     return (
         <div>
             {demos.map(demo =>
-                <DemoItem title={demo.title} image={demo.image} description={demo.description} github={demo.github} video={demo.video}/>
+                <DemoItem key={demo.id} 
+                          id={demo.id}
+                          title={demo.title}
+                          image={demo.image}
+                          overview={demo.overview}
+                          description={demo.description}
+                          github={demo.github}
+                          video={demo.video}/>
             )}
         </div>
     );

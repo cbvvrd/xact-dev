@@ -1,9 +1,11 @@
 {
     "demos": [
         {
+            "id": 1,
             "title": "Demo 1",
             "image": "images/vishnu-mohanan-0iRfjG7IGeo-unsplash.jpg",
-            "description": "Pellentesque maximus nibh non ipsum sodales, quis fringilla magna auctor. Morbi mi mi, ultricies malesuada ante vel, pellentesque ultrices felis. In ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna sollicitudin, faucibus neque in, aliquet mi.",
+            "overview": "A brief overview of this demo",
+            "description": "In depth description of this demonstration: Pellentesque maximus nibh non ipsum sodales, quis fringilla magna auctor. Morbi mi mi, ultricies malesuada ante vel, pellentesque ultrices felis. In ut accumsan diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer in urna sollicitudin, faucibus neque in, aliquet mi.",
             "github": "https://github.com/",
             "video": "https://www.youtube.com/watch?v=I76wvt0aEE4"
         }

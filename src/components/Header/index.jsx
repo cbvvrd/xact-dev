@@ -20,7 +20,7 @@ function Header() {
                 </nav>    
             </header>
 
-            <div className={menuOpen ? "fixed z-20 top-0 right-0 flex flex-col items-center gap-1 pt-8 pl-10 pr-5  h-full bg-slate-800 text-white text-lg" : "hidden"}>
+            <div className={menuOpen ? "fixed z-20 top-0 right-0 flex flex-col items-center gap-1 pt-8 pl-10 pr-5 h-full bg-slate-800 text-white text-lg" : "hidden"}>
                 <button onClick={() => setMenuOpen(false)} className="self-end"><FontAwesomeIcon icon={faX} className="text-xl hover:text-blue-400 duration-75" /></button>
                 <nav className="flex flex-col items-end text-center gap-3 pt-5">
                     <NavLinks />

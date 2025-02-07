@@ -7,12 +7,20 @@ function Services() {
     const[serviceList, setServiceList] = useState([]);
     
     useEffect(() => {
+        // const fetchServices = async () => {
+        //     const response = await fetch("servicesData.json");
+        //     const json = await response.json();
+        //     setServiceList(json.services);
+        // }
+        // fetchServices();
         fetch("servicesData.json")
         .then(res => res.json())
         .then(servicesData => {
             setServiceList(servicesData.services)
         });
     }, []);
+
+    console.log(serviceList[0]);
 
     return (
         <>
@@ -21,16 +29,15 @@ function Services() {
                 <h4>Here are some of the services we offer:</h4>
                 
                 <div className="grid gap-4 mx-16 mt-5 text-center md:gap-10 md:grid-cols-4 items-stretch">
-                    <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200">
-                        <GrCpu className="self-center text-2xl" />
-                        <p className="font-semibold">Service 1</p>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda.</p>
-                    </div>
-                    <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200 ">
-                        <GrAction className="self-center text-2xl"/>
-                        <p className="font-semibold">Service 2</p>
-                        <p>laboriosam dicta in hic unde exercitationem pariatur! Assumenda eum veniam aliquam officia dolorum!</p>
-                    </div>
+
+                    {serviceList.length > 0 ? 
+                        <>
+                            <IndividualService title={serviceList[0].title} description={serviceList[0].description} icon={serviceList[0].icon}/>
+                            <IndividualService title={serviceList[1].title} description={serviceList[1].description}/>
+                        </> 
+                        : <IndividualService description="Loading..." />
+                    }
+                    
                     <ul className="list-disc justify-self-center my-2 md:hidden">
                         <GrOptimize className="justify-self-center m-5 text-xl"/>
                         <li>We</li>
@@ -40,16 +47,16 @@ function Services() {
                         <li>Things</li>
                         <GrLike className="justify-self-center mt-5 text-xl"/>
                     </ul>
-                    <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200">
-                        <GrBarChart className="self-center text-2xl"/>
-                        <p className="font-semibold">Service 3</p>
-                        <p>Duis vestibulum libero at ex luctus iaculis. Phasellus nec pharetra odio, at efficitur massa.</p>
-                    </div>
-                    <div className="flex flex-col gap-2 border-2 border-black p-5 rounded-lg bg-blue-200">
-                        <GrServices className="self-center text-2xl"/>
-                        <p className="font-semibold">Service 4</p>
-                        <p>Suspendisse at magna feugiat, aliquet augue at, congue tellus. Aenean nec tincidunt nisi.</p>
-                    </div>
+
+                    {serviceList.length > 0 ? 
+                        <>
+                            <IndividualService title={serviceList[2].title} description={serviceList[2].description} />
+                            <IndividualService title={serviceList[3].title} description={serviceList[3].description}/>
+                        </> 
+                        : <IndividualService description="Loading..." />
+                    }
+
+           
                 </div>
                 <div className="items-center gap-8 hidden md:flex">
                     <GrOptimize className="justify-self-center m-5 text-xl"/>

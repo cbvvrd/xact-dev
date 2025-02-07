@@ -4,7 +4,7 @@
             "id": 1,
             "title": "Service 1",
             "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda.",
-            "icon": "GrCpu"
+            "icon": "<GrCpu />"
         },
         {
             "id": 2,

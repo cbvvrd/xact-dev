@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { GrAction, GrBarChart, GrCpu, GrLike, GrOptimize, GrServices } from "react-icons/gr";
+import { GrAction, GrBarChart, GrCpu, GrServices } from "react-icons/gr";
 import IndividualService from "../IndividualService";
 import ServiceBulletPoints from "../ServiceBulletPoints";
 

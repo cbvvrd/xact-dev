@@ -23,7 +23,8 @@ function Demos() {
                           overview={demo.overview}
                           description={demo.description}
                           github={demo.github}
-                          video={demo.video}/>
+                          video={demo.video}
+                />
             )}
         </div>
     );

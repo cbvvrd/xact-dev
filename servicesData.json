@@ -3,26 +3,22 @@
         {
             "id": 1,
             "title": "Service 1",
-            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda.",
-            "icon": "GrCpu"
+            "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero ratione veniam eius nam ea ab quo assumenda."
         },
         {
             "id": 2,
             "title": "Service 2",
-            "description": "laboriosam dicta in hic unde exercitationem pariatur! Assumenda eum veniam aliquam officia dolorum!",
-            "icon": "GrAction"
+            "description": "laboriosam dicta in hic unde exercitationem pariatur! Assumenda eum veniam aliquam officia dolorum!"
         },
         {
             "id": 3,
             "title": "Service 3",
-            "description": "Duis vestibulum libero at ex luctus iaculis. Phasellus nec pharetra odio, at efficitur massa.",
-            "icon": "GrBarChart"
+            "description": "Duis vestibulum libero at ex luctus iaculis. Phasellus nec pharetra odio, at efficitur massa."
         },
         {
             "id": 4,
             "title": "Service 4",
-            "description": "Suspendisse at magna feugiat, aliquet augue at, congue tellus. Aenean nec tincidunt nisi.",
-            "icon": "GrServices"
+            "description": "Suspendisse at magna feugiat, aliquet augue at, congue tellus. Aenean nec tincidunt nisi."
         }
     ]
 }

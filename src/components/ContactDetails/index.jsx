@@ -4,12 +4,12 @@ import ContactForm from "../ContactForm";
 function ContactDetails() {
     return (
         <div className="flex flex-col gap-5 mt-8 mb-10 md:mx-24">
-            <p className="text-xl text-center">Email: <a href="mailto:contact@xactdev.co.uk" className="underline underline-offset-2 hover:font-semibold hover:underline-offset-4 duration-150">contact@xactdev.co.uk</a></p>
+            <p className="text-xl text-center">Email: <a href="mailto:contact@xactdev.co.uk" className="underline underline-offset-2 hover:underline-offset-4 hover:text-purple-900 duration-150">contact@xactdev.co.uk</a></p>
             <ContactForm />
             <div className="flex justify-center gap-5 text-xl">
-                <p>Github <FaGithub /></p>
-                <p>LinkedIn <FaLinkedin /></p>
-                <p>Youtube <FaYoutube /></p>
+                <p className="hover:text-purple-900">Github <FaGithub /></p>
+                <p className="hover:text-purple-900">LinkedIn <FaLinkedin /></p>
+                <p className="hover:text-purple-900">Youtube <FaYoutube /></p>
             </div>
         </div>
     );

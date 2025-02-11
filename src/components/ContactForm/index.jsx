@@ -1,7 +1,7 @@
 
 function ContactForm() {
     return (
-        <div className="border border-black flex flex-col p-3 bg-slate-400 m-4 gap-1 md:w-1/2 self-center">
+        <div className="border border-black flex flex-col p-3 bg-slate-400 m-4 gap-1 w-full md:w-1/2 self-center">
             <h2 className="text-xl font-semibold">Contact Form</h2>
             <form>
                 <div className="flex flex-col gap-1">

@@ -7,21 +7,21 @@ function ContactForm() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-
+        
         emailjs
             .sendForm("contact_service", "contact_form", form.current, {
                 publicKey: "TS2BKpjtOdfNW-g1w"
             })
             .then(
                 () => {
-                    console.log("SUCCESS!");
+                    alert("Thank you for your message. We will do our best to get back to you as soon as we are able.");
+                    e.target.reset();
                 },
                 (error) => {
-                    console.log("FAILED...", error.text);
+                    alert("FAILED...", error.text);
                 },
             );
     }
-
 
     return (
         <div className="border border-black flex flex-col p-3 bg-slate-400 m-4 gap-1 w-full md:w-1/2 self-center">
